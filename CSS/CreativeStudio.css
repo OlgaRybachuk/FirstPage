@@ -20,6 +20,25 @@ p {
     margin: 8px 0
 }
 
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #090909;
+    padding-left: 28px;
+    background: url(../images/arrow.png) no-repeat 0 3px;
+    margin-bottom: 11px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #090909;
+    text-transform: uppercase;
+    background: url(../images/arrow_small.png) no-repeat 0 4px;
+    padding-left: 22px;
+}
+
 #top-line {
         background: #090909;
         height: 16px;
@@ -79,7 +98,6 @@ p {
     margin-top: 20px;
     border-bottom: 1px solid #c0c0c0;
     overflow: hidden;
-    margin-bottom: 100px;
     padding-bottom: 24px;
 }
 
@@ -103,9 +121,6 @@ p {
     margin-right: 52px;
 }
 
-#content-box {
-    margin-right: 0;
-}
 
 .content-box h2 {
     font-size: 18px;
@@ -134,4 +149,48 @@ p {
     font-style: italic;
     color: #090909;
     margin-top: 20px;
+}
+
+#portfolio {
+    margin-top: 20px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #c0c0c0;
+    overflow: hidden;
+}
+
+.portfolio-image {
+    width: 215px;
+    height: 135px;
+    float: left;
+    margin-right: 33px;
+    position: relative;
+}
+
+#portfolio-image, #content-box {
+    margin-right: 0;
+}
+
+.portfolio-image a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #090909;
+    display: block;
+    background: #fe9b00;
+    padding: 10px 10px;
+    line-height: 1;
+}
+
+#social ul li {
+    list-style-type: none;
+}
+
+#blog {
+    width: 740px;
+    float: left;
+}
+
+#social {
+    width: 220px;
+    float: right;
 }

@@ -20,11 +20,14 @@ p {
     margin: 8px 0
 }
 
-h2 {
-    font-size: 18px;
+h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
     color: #090909;
+}
+
+h2 {
+    font-size: 18px;
     padding-left: 28px;
     background: url(../images/arrow.png) no-repeat 0 3px;
     margin-bottom: 11px;
@@ -32,11 +35,9 @@ h2 {
 
 h3 {
     font-size: 12px;
-    font-weight: bold;
-    color: #090909;
-    text-transform: uppercase;
-    background: url(../images/arrow_small.png) no-repeat 0 4px;
+    background: url(../images/arrow_small.png) no-repeat 0 8px;
     padding-left: 22px;
+    margin-bottom: 20px;
 }
 
 #top-line {
@@ -185,8 +186,13 @@ h3 {
     list-style-type: none;
 }
 
+#bottom-row {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
 #blog {
-    width: 740px;
+    width: 670px;
     float: left;
 }
 
@@ -194,3 +200,9 @@ h3 {
     width: 220px;
     float: right;
 }
+
+#social ul li {
+    float: left;
+    margin-right: 12px;
+}
+
